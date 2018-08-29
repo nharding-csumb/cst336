@@ -1,4 +1,13 @@
-<html><body>
+<!DOCTYPE html>
+
+<html>
+    <head>    
+    <meta charset="utf-8">     
+        <title>     
+        </title>
+    </head>    
+    
+<body>
 <?php
 // A simple web site in Cloud9 that runs through Apache
 // Press the 'Run' button on the top to start the web server,
