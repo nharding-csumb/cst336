@@ -19,6 +19,8 @@ in html
             
             hr {
                 width : 50%;
+                height: 5px;
+                background: #333;
             }
             
         </style>
@@ -29,15 +31,30 @@ in html
     <!-- This is where we place the content of our website -->
     <body>
         <header>
-            <h1> Nicholas Harding </h1>
+            <h1> Nicholas Harding </h1> <!-- block tag - each item in its own line -->
         </header>
         
         <nav>
             <hr>
-            <a href="index.html">Home</a>
+            <a href="index.html">Home</a> <!-- inline tag - always in the same line-->
             <a href="about.html">About</a>
             <a href="contact.html">Contact</a>
         </nav>
+        
+        <main>
+            
+            <figure>
+                
+                <img src="img/juan_doe.png">
+                
+            </figure>
+            
+            <div>
+                Hello! <br />
+                <p> Thank you vor visiting my professional portfolio website.</p>
+            </div>
+            
+        </main>
         
         <!-- This is the footer -->
         <!-- The footer goes inside the body but not always -->
