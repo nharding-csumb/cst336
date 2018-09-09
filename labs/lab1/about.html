@@ -15,15 +15,15 @@ in html
         <meta charset="utf-8" />
         <title> Nicholas Harding: Personal Website</title>
         
-        <style>
+        <!--<style>-->
             
-            hr {
-                width : 50%;
-                height: 5px;
-                background: #333;
-            }
+        <!--    hr {-->
+        <!--        width : 50%;-->
+        <!--        height: 5px;-->
+        <!--        background: #333;-->
+        <!--    }-->
             
-        </style>
+        <!--</style>-->
         
         <link href="css/styles.css" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
@@ -46,24 +46,28 @@ in html
         
         <br /><br />
         
-        <main>
+        <div id="content">
+            <!--Create the table to hold experience data-->
+            <table>
+                <tr id="table-header">
+                    <td><strong>Programming Language</strong></td>
+                    <td><strong>Years Experience</strong></td>
+                </tr>
+                <tr class="table-row">
+                    <td>C++</td>
+                    <td>3</td>
+                </tr>
+                <tr class="table-row">
+                    <td>Python</td>
+                    <td>1</td>
+                </tr>
+            </table>
             
-            <figure id="me">
-                
-                <img src="img/juan_doe.png" alt="Picture of Juan Doe." title="Testing.">
-                
-            </figure>
-            
-            <div id="welcomeText">
-                Hello! <br />
-                <p>Thank you vor visiting my professional portfolio website.</p>
-                
-                <p>I am a Game Development student attending CSUMB.</p>
-                
-                <p>Please feel free to contact me.</p>
-            </div>
-            
-        </main>
+            <ul>
+                <li><span class="hobby">Video Games</span>: I own most current consoles and like most kinds of games, but my favortie series is The Legend of Zelda.</li>
+                <li><span class="hobby">Writing</span>: I'm fascinated by stories and what they say about us, and I often spend my spare time writing stories I rarely finish.</li>
+            </ul>
+        </div>
         
         <!-- This is the footer -->
         <!-- The footer goes inside the body but not always -->

@@ -1,0 +1,83 @@
+body {
+    background-color:black;
+    color:grey;
+}
+
+header, main, nav, footer{
+    text-align:center;
+}
+
+main {
+    display:flex;
+    justify-content:center;
+}
+
+#contact {
+    padding-left: 400px;
+}
+
+nav a{ /* links within "nav" container */
+    padding:15px;
+    padding-bottom:4px;
+    font-size:1.8em;
+    text-decoration:none;     /* removes underline */
+    color:white;             /* default color of links is blue */
+}
+
+nav a:hover { /* psuedo class */
+    border-bottom:2px orange solid;
+    font-size:2em;
+    transition:0.9s; /* transition effect */
+}
+
+/*#me, #welcomeText {*/
+    /*float:left;*/
+/*}*/
+
+#welcomeText {
+    text-align:left;
+}
+
+footer {
+    clear:left;
+}
+
+table {
+    margin: 0px auto;
+}
+
+td {
+    padding-right: 10px;
+    font-size: 1.3em;
+}
+
+td strong {
+    color: orange;
+}
+
+#table-header {
+    background-color: #351a00;
+}
+
+.table-row {
+    background-color: #753900;
+}
+
+ul {
+    /*justify-content:center;*/
+    text-align: justify;
+    padding-left: 300px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.hobby {
+    color: yellow;
+}
+
+h1 {
+    color: white;
+    font-family: 'Pacifico', cursive;
+    font-size: 4em;
+    margin-bottom: 0px;
+}
