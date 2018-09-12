@@ -1,0 +1,44 @@
+hr {
+    width: 50%;
+    height: 15px;
+    outline-style: solid;
+    outline-color: black;
+    outline-width: 1px;
+}
+
+nav a { /* links within "nav" container */
+    padding: 15px;
+    padding-bottom: 4px;
+    font-size: 1.8em;
+    text-decoration: none;     /* removes underline */
+    color: black;             /* default color of links is blue */
+    text-shadow: 2px 2px #D3D3D3;
+}
+
+main a {
+    text-decoration: none;
+    color: blue;
+}
+
+header, main, nav, footer{
+    text-align:center;
+}
+
+#quote {
+    font-family: Montserrat;
+    font-size: 0.8em;
+    margin: 0px;
+    width: 50%;
+    padding-left: 25%;
+    text-align: center;
+}
+
+.text {
+    text-align: left;
+    width: 50%;
+    padding-left: 25%;
+}
+
+.indent {
+    text-indent: 10px;
+}

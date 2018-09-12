@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<!--
+
+First Website
+and comment
+in html
+(comments can span multiple lines)
+
+-->
+
+<!-- This is the head -->
+<!-- All styles and javascript go inside the head -->
+    <head>
+        <meta charset="utf-8" />
+        <title>Programming Languages</title>
+        
+        <link href="css/styles.css" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    </head>
+<!-- closing head -->
+
+    <!-- This is the body -->
+    <!-- This is where we place the content of our website -->
+    <body>
+        <header>
+            <h1> C++ </h1> <!-- block tag - each item in its own line -->
+        </header>
+        
+        <nav>
+            <hr>
+            <a href="index.html">Home</a> <!-- inline tag - always in the same line-->
+            <a href="cplusplus.html">C++</a>
+            <a href="python.html">Python</a>
+            <a href="html.html">HTML</a>
+        </nav>
+        
+        <br />
+        
+        <main>
+            
+            <figure>
+                
+                <img src="img/c++.png" alt="C++ logo." title="C++ logo">
+                
+            </figure>
+            
+            <br />
+            
+            <div class="text">
+                When computers were still new, programming languages were incredibly simple. You had to guide the computer through
+                every step of the process, and that took a lot of instruction. As one would expect from this description, code was
+                incredibly difficult to read for humans.
+                <br /><br />
+                C was a langage that simplified this code, making it easier to read and write. But it was still a fairly early language,
+                and in time a new language was created from C, this one even easier to read and write, C++.
+                <br /><br />
+                C++ is an object-oriented programming language. What this means is that instead of writing every step of the logic
+                the computer needs to follow, it looks at the rules applied to a specific object and how it relates to other objects.
+                <br /><br />
+                As a language, C++ is very visually simple. Most instructions have only brief declarations, with most of the text of the
+                code being the content the user wants to interact with. Below is an example of C++ code that counts from 0 to 50 in 
+                increments of 5, printing it each time.
+                <br /><br />
+                <code>
+                int count = 0;
+                <br />
+                for (int i = 0; i < 10; i++)
+                <br />
+                {
+                <div class="indent">
+                    count = count + 5;
+                    <br />
+                </div>
+                <div class="indent">
+                    cout << count << endl;
+                    <br />
+                </div>
+                }
+                </code>
+                <br /><br />
+            </div>
+            
+            <div class="source">
+                <a href="http://www.cs.ecu.edu/~karl/3510/notes1.html">Source for this page.</a>
+                <br />
+            </div>
+            
+        </main>
+        
+        <!-- This is the footer -->
+        <!-- The footer goes inside the body but not always -->
+        <footer>
+            <hr>
+            CST 336 Internet Programming. 2018&copy; Harding <br />
+            <strong>Disclaimer:</strong> The information on this webpage is fictitous. <br />
+            It is used for academic purposes only. <br />
+            
+            <br />
+            
+            <img src="../../img/csumb_logo.png" alt="California State University - Monterey Bay school logo." title="California State University - Monterey Bay school logo.">
+        </footer>
+        <!-- closing footer -->
+        
+    </body>
+    <!-- closing body -->
+
+</html>
