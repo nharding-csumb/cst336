@@ -1,0 +1,33 @@
+body {
+    background-color: green;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+header {
+    text-decoration: underline;
+}
+
+#text {
+    width: 50%;
+    padding-left: 25%;
+    text-align: justify;
+}
+
+.cards {
+    background-color: #228B22;
+    margin: 30px;
+    padding-bottom: 10px;
+}
+
+h1 {
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+    text-shadow: 2px 2px #808080;
+}
+
+h2 {
+    text-shadow: 2px 2px #808080;
+}

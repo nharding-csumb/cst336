@@ -11,7 +11,8 @@ session_start();    //start or resume an existing session
     </head>
     <body>
         
-        My name is <?= $_SESSION=["my_name"] ?>
+        <h1> My name is <?= $_SESSION["my_name"] ?> </h1>
+        <h2> My favorite class is <?= $_SESSION["course"] ?> </h2>
 
     </body>
 </html>

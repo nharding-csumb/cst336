@@ -1,3 +1,0 @@
-[17-Sep-2018 21:48:30 UTC] PHP Fatal error:  Call to undefined function arrar_rand() in /home/ubuntu/workspace/cst336/labs/lab3/arrays.php on line 43
-[17-Sep-2018 21:48:30 UTC] PHP Stack trace:
-[17-Sep-2018 21:48:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:0
