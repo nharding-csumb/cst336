@@ -62,7 +62,7 @@
     function displayHand($player){
         
         
-        echo "<img src='/silverjack/img/$player->picture.png' title='".ucfirst("person")."'/>";
+        echo "<img src='/img/$player->picture.png' title='".ucfirst("person")."'/>";
         
         
         
@@ -145,7 +145,7 @@
 
         // /silverjack/img/clubs/1.png
        
-   echo "<img src='/silverjack/img/$temptype/$findvalue.png' title='".ucfirst("card")."'/>";
+   echo "<img src='img/$temptype/$findvalue.png' title='".ucfirst("card")."'/>";
       
          $counter=$counter+1;
         
