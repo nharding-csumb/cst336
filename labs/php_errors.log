@@ -1,0 +1,4 @@
+[07-Oct-2018 03:56:22 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/cst336/labs/lab4/index.php on line 166
+[07-Oct-2018 03:56:22 UTC] PHP Stack trace:
+[07-Oct-2018 03:56:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab4/index.php:0
+[07-Oct-2018 03:56:22 UTC] PHP   2. array_rand() /home/ubuntu/workspace/cst336/labs/lab4/index.php:166

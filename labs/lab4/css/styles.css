@@ -1,5 +1,5 @@
     body{
-        opacity:0.9;
+        /*opacity:0.9;*/
         width:100%;
         text-align:center;
         color:yellow;
@@ -10,7 +10,16 @@
         color: black;
     }
     
-    #carousel-example-generic {
+    #inputLayout {
+        display:inline-block; 
+        color:black; 
+        text-align:left; 
+        background-color:white; 
+        padding:10px; 
+        border-radius:10px;
+    }
+    
+    #carouselExampleIndicators {
          margin: 0 auto;   
-         width: 700px;
+         width: 500px;
     }
