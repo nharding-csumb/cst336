@@ -62,7 +62,7 @@
     function displayHand($player){
         
         
-        echo "<img src='/img/$player->picture.png' title='".ucfirst("person")."'/>";
+        echo "<img src='img/$player->picture.png' title='".ucfirst("person")."'/>";
         
         
         
