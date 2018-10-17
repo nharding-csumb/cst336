@@ -144,16 +144,16 @@
             
             <br /><br />
             
-            <div class='box'>
-                <?php
-                if(opNumValid()) {
-                    //These are separate so the error message doesn't display before it's even asked for values
-                    if(numNotCharVal() && opValid()) {
-                        calculateVal();
-                    }
+            <?php
+            if(opNumValid()) {
+                //These are separate so the error message doesn't display before it's even asked for values
+                if(numNotCharVal() && opValid()) {
+                    echo "<div class='box'>";
+                    calculateVal();
+                    echo "</div>";
                 }
-                ?>
-            </div>
+            }
+            ?>
         </main>
 
     </body>
