@@ -78,7 +78,7 @@
                 <input type="radio" name="layout" value="horizontal" 
                 <?php
                     if($_GET['layout'] == "horizontal"){
-                        echo "checked";
+                        echo " checked";
                     }
                 ?>
                 > Horizontal
@@ -88,7 +88,7 @@
                 <input type="radio" name="layout" value="vertical"
                 <?php
                     if($_GET['layout'] == "vertical"){
-                        echo "checked";
+                        echo " checked";
                     }
                 ?>
                 > Vertical

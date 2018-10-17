@@ -1,0 +1,11 @@
+body
+{
+   background-color:orange;
+   color:black;
+   text-align: center;
+}
+
+header, main, nav, footer, form
+{
+   text-align: center;
+}

@@ -1,0 +1,15 @@
+[15-Oct-2018 20:46:43 UTC] PHP Parse error:  syntax error, unexpected '[', expecting ',' or ';' in /home/ubuntu/workspace/cst336/practice/midterm_practice1/inc/functions.php on line 30
+[15-Oct-2018 20:46:43 UTC] PHP Stack trace:
+[15-Oct-2018 20:46:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/midterm_practice1/midterm_practice1.php:0
+[15-Oct-2018 20:49:07 UTC] PHP Parse error:  syntax error, unexpected '[', expecting ',' or ';' in /home/ubuntu/workspace/cst336/practice/midterm_practice1/inc/functions.php on line 30
+[15-Oct-2018 20:49:07 UTC] PHP Stack trace:
+[15-Oct-2018 20:49:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/midterm_practice1/midterm_practice1.php:0
+[15-Oct-2018 20:49:17 UTC] PHP Parse error:  syntax error, unexpected '[', expecting ',' or ';' in /home/ubuntu/workspace/cst336/practice/midterm_practice1/inc/functions.php on line 30
+[15-Oct-2018 20:49:17 UTC] PHP Stack trace:
+[15-Oct-2018 20:49:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/midterm_practice1/midterm_practice1.php:0
+[15-Oct-2018 20:49:19 UTC] PHP Parse error:  syntax error, unexpected '[', expecting ',' or ';' in /home/ubuntu/workspace/cst336/practice/midterm_practice1/inc/functions.php on line 30
+[15-Oct-2018 20:49:19 UTC] PHP Stack trace:
+[15-Oct-2018 20:49:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/midterm_practice1/midterm_practice1.php:0
+[15-Oct-2018 20:49:38 UTC] PHP Parse error:  syntax error, unexpected 'for' (T_FOR), expecting ',' or ';' in /home/ubuntu/workspace/cst336/practice/midterm_practice1/inc/functions.php on line 101
+[15-Oct-2018 20:49:38 UTC] PHP Stack trace:
+[15-Oct-2018 20:49:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/midterm_practice1/midterm_practice1.php:0
