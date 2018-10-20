@@ -1,3 +1,29 @@
+<?php
+    session_start();
+    include 'functions.php';
+    
+    //Unset an item if it has the same ID as the item we want to remove
+    if(isset($_POST['removeId'])) {
+        //The '=>' syntax makes $itemKey equal to the current variable's key
+        //If we just used $item, we'd only affect the copy
+        foreach($_SESSION['cart'] as $itemKey => $item) {
+            if ($item['id'] == $_POST['removeId']) {
+                unset($_SESSION['cart'][$itemKey]);
+            }
+        }
+    }
+    
+    //Change the quantity of an item
+    if(isset($_POST['updateId'])) {
+        //We need to pass by reference here
+        foreach($_SESSION['cart'] as &$item) {
+            if ($item['id'] == $_POST['updateId']) {
+                $item['quantity'] = $_POST['update'];
+            }
+        }
+    }
+?>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -21,13 +47,21 @@
                         </div>
                         <ul class='nav navbar-nav'>
                             <li><a href='index.php'>Home</a></li>
-                            <li><a href='scart.php'>Cart</a></li>
+                            <li><a href='scart.php'>
+                            <span class='glyphicon glyphicon-shopping-cart' aria-hidden='true'>
+                            </span> Cart: <?php displayCartCount(); ?> </a></li>
                         </ul>
                     </div>
                 </nav>
                 <br /> <br /> <br />
                 <h2>Shopping Cart</h2>
                 <!-- Cart Items -->
+                
+                <?php
+                    if(isset($_SESSION['cart'])) {
+                        displayCart();
+                    }
+                ?>
 
             </div>
         </div>
