@@ -1,4 +1,25 @@
 body {
     text-align: center;
-    margin: 0px;
+    margin: 0px auto;
+}
+
+#displayInfo {
+    display: block;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    /*border: 3px black;*/
+    /*border-style: solid;*/
+}
+
+table {
+    text-align: center;
+    margin: auto;
+}
+
+#displayBlock {
+    display: block;
+    margin: auto;
+    width: 50%;
+    text-align: left;
 }
