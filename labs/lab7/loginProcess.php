@@ -10,22 +10,26 @@
     
     $namedParameters = array();
     
+    // $sql = "SELECT * FROM om_admin";
+    // $sql .= " WHERE username = '$username'";
+    // $sql .= " AND password = '$password'";
+    
     $sql = "SELECT * FROM om_admin";
-    $sql .= " WHERE username = '$username'";
-    $sql .= " AND password = '$password'";
+    // $sql .= " WHERE username = :username";
+    // $sql .= " AND password = :password";
     
-    // if(!empty($username)) {
-    //     //This SQL prevents SQL INJECTION by using a named parameter
-    //     $sql .= " WHERE username = :username";
-    //     //echo $sql;
-    //     $namedParameters[':username'] = $username;
-    // }
+    if(!empty($username)) {
+        //This SQL prevents SQL INJECTION by using a named parameter
+        $sql .= " WHERE username = :username";
+        //echo $sql;
+        $namedParameters[':username'] = $username;
+    }
     
-    // if(!empty($password)) {
-    //     $sql .= " AND password = :password";
-    //     //echo $sql;
-    //     $namedParameters[':password'] = $category;
-    // }
+    if(!empty($password)) {
+        $sql .= " AND password = :password";
+        //echo $sql;
+        $namedParameters[':password'] = $password;
+    }
             
     $stmt = $dbConn->prepare($sql);
     $stmt->execute($namedParameters);

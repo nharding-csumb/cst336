@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> JavaScript review </title>
+        
+        <script>
+        
+            function getEl(elementId) {
+                return document.getElementById(elementId);
+            }
+            
+            
+            function doMagic() {
+                
+                //alert("hi");
+                
+                //document.getElementById("catImage").src = "img/now_you_dont.png";
+                
+                getEl("catImage").src = "img/now_you_dont.png";
+                
+                document.getElementById("message").innerHTML = " <i>...Now you don't!</i> ";
+                
+                document.getElementById("message").style.color = "red";
+                
+                document.getElementById("doMagic").style.display = "none";      //Hides button
+                
+                document.getElementById("reappear").style.display = "inline";   //Makes button appear
+                
+            }
+            
+            function reappear() {
+                
+                document.getElementById("catImage").src = "img/now_you_see_me.png";
+                
+                document.getElementById("message").innerHTML = " Now you see me... ";
+                
+                document.getElementById("message").style.color = "black";
+                
+                document.getElementById("doMagic").style.display = "inline";        //Makes button appear
+                
+                document.getElementById("reappear").style.display = "none";       //Hides button
+                
+            }
+            
+        </script>
+        
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        
+        
+        <style>
+            
+            #reappear {
+                
+                display: none; /*hides an element*/
+            }
+            
+        </style>
+        
+    </head>
+    <body>
+        
+        <img id="catImage" src='img/now_you_see_me.png' /> <br />
+        
+        <h2 id="message"> Now you see me... </h2>
+        
+        
+        <button id="doMagic"> Do Magic! </button>
+        
+        <button id="reappear"> Reappear! </button>
+        
+        
+        <script>
+        
+            $("#doMagic").click( function(){ doMagic(); } );
+            
+            $("#reappear").click( function(){ reappear(); } );
+        
+            $("#message").html("Changing content using jQuery!");
+            
+        </script>
+    </body>
+</html>

@@ -1,0 +1,14 @@
+body {
+    text-align: center;
+    margin: auto;
+}
+#quoteBlock{
+    text-align: left;
+    margin: auto;
+    width: 50%;
+}
+#headerBlock{
+    font-size: larger;
+    background-color: #C0C0C0;
+    padding: 1px;
+}

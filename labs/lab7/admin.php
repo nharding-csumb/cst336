@@ -4,23 +4,7 @@
     include '../../inc/dbConnection.php';
     $dbConn = startConnection("ottermart");
     
-    function displayAllProducts() {
-        global $dbConn;
-        
-        $sql = "SELECT * FROM om_product ORDER BY productName";
-        $stmt = $dbConn->prepare($sql);
-        $stmt->execute();
-        $records = $stmt->fetchAll(PDO::FETCH_ASSOC);
-        
-        foreach($records as $record) {
-            
-            echo "[<a href='updateProduct.php'>Update</a>] ";
-            echo "[<a href='deleteProduct.php'>Delete</a>] ";
-            
-            echo "".$record['productName']." - $".$record['price']." <br /> <br />";
-        }
-        
-    }
+    include 'inc/functions.php';
 
 ?>
 
