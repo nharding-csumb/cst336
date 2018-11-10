@@ -38,7 +38,8 @@
     //print_r($record);
 
     if(empty($record)) {
-        echo "Wrong username or password!";
+        $_SESSION['loginError'] = true;
+        header('Location: index.php');
     } else {
         // echo "Welcome ".$record['firstName']." ".$record['lastName'].".";
         $_SESSION['adminFullName'] = $record['firstName'] .  "   "  . $record['lastName'];
