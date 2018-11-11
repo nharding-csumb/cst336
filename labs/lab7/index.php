@@ -45,6 +45,11 @@
         
         </div>
         
+        <footer>
+            <hr>
+            <img src="../../img/buddy_verified.png" alt="Buddy Verified Label" title="Buddy Verified Label">
+        </footer>
+        
         <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 
     </body>

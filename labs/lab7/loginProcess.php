@@ -14,13 +14,13 @@
     // $sql .= " WHERE username = '$username'";
     // $sql .= " AND password = '$password'";
     
-    $sql = "SELECT * FROM om_admin";
+    $sql = "SELECT * FROM om_admin WHERE 1";
     // $sql .= " WHERE username = :username";
     // $sql .= " AND password = :password";
     
     if(!empty($username)) {
         //This SQL prevents SQL INJECTION by using a named parameter
-        $sql .= " WHERE username = :username";
+        $sql .= " AND username = :username";
         //echo $sql;
         $namedParameters[':username'] = $username;
     }
