@@ -1,0 +1,204 @@
+<html>
+	<head>
+		<title>Rock Paper Scissors</title>
+		<link rel="stylesheet" type="text/css" href="rps.css">
+		<!--<script language="javascript" type="text/javascript" src="rps.js"></script>-->
+		<script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+		
+		<script>
+			var imgPlayer;
+			var btnRock;
+			var btnPaper;
+			var btnScissors;
+			var btnGo;
+			
+			var playerChoice;
+			var computerChoice;
+			
+			function init() {
+				imgPlayer = $("#imgPlayer");
+				btnRock = $("#btnRock");
+				btnPaper = $("#btnPaper");
+				btnScissors = $("#btnScissors");
+				btnGo = $("#btnGo");
+				deselectAll();
+			}
+			
+			function deselectAll() {
+				btnRock.css('background-color', 'silver');
+				btnPaper.css('background-color', 'silver');
+				btnScissors.css('background-color', 'silver');
+			}
+			
+			function select(choice) {
+				playerChoice = choice;
+				imgPlayer.attr("src", ("img/" + choice + ".png"));
+				deselectAll();
+				if(choice=='rock') btnRock.css('background-color', '#888888');
+				if(choice=='paper') btnPaper.css('background-color', '#888888');
+				if(choice=='scissors') btnScissors.css('background-color', '#888888');
+				
+				btnGo.css("display", "block");
+			}
+			
+			function go() {
+				var numChoice = Math.floor(Math.random()*3);	//gets 0, 1, or 2
+				var imgComputer = $("#imgComputer");
+				
+				var txtEndTitle = $("#txtEndTitle");
+				var txtEndMessage = $("#txtEndMessage");
+				
+				$("#lblRock").css('background-color', '#EEEEEE');
+				$("#lblPaper").css('background-color', '#EEEEEE');
+				$("#lblScissors").css('background-color', '#EEEEEE');
+				
+				if(numChoice==0) {
+					computerChoice = 'rock';
+					imgComputer.attr("src", "img/rock.png");
+					$("#lblRock").css('background-color', 'yellow');
+					
+					if(playerChoice=="rock") {
+						txtEndTitle.html("");
+						txtEndMessage.html("TIE");
+					}
+					
+					else if(playerChoice=="paper") {
+						txtEndTitle.html("Paper covers rock");
+						txtEndMessage.html("YOU WIN");
+					}
+					
+					else if(playerChoice=="scissors") {
+						txtEndTitle.html("Rock breaks scissors");
+						txtEndMessage.html("YOU LOSE");
+					}
+				}
+				
+				else if(numChoice==1) {
+					computerChoice = 'paper';
+					imgComputer.attr("src", "img/paper.png");
+					$("#lblPaper").css('background-color', 'yellow');
+					
+					if(playerChoice=="rock") {
+						txtEndTitle.html("Paper covers rock");
+						txtEndMessage.html("YOU LOSE");
+					}
+					
+					else if(playerChoice=="paper") {
+						txtEndTitle.html("");
+						txtEndMessage.html("TIE");
+					}
+					
+					else if(playerChoice=="scissors") {
+						txtEndTitle.html("Scissors cuts paper");
+						txtEndMessage.html("YOU WIN");
+					}
+				}
+				
+				else if(numChoice==2) {
+					computerChoice = 'scissors';
+					imgComputer.attr("src", "img/scissors.png");
+					$("#lblScissors").css('background-color', 'yellow');
+					
+					if(playerChoice=="rock") {
+						txtEndTitle.html("Rock breaks scissors");
+						txtEndMessage.html("YOU WIN");
+					}
+					
+					else if(playerChoice=="paper") {
+						txtEndTitle.html("Scissors cuts paper");
+						txtEndMessage.html("YOU LOSE");
+					}
+					
+					else if(playerChoice=="scissors") {
+						txtEndTitle.html("");
+						txtEndMessage.html("TIE");
+					}
+				}
+				
+				$("#endScreen").css('display', 'block');
+			}
+			
+			function startGame() {
+				$("#introScreen").css("display", "none");
+			}
+			
+			function replay() {
+				$("#endScreen").css("display", "none");
+				btnGo.css('display', 'none');
+				
+				deselectAll();
+				
+				$("#lblRock").css('background-color', '#EEEEEE');
+				$("#lblPaper").css('background-color', '#EEEEEE');
+				$("#lblScissors").css('background-color', '#EEEEEE');
+				
+				imgPlayer.attr('src', 'img/question.png');
+				
+				$("#imgComputer").attr('src', 'img/question.png');
+				
+			}
+			
+		</script>
+	</head>
+	<body onload="init()">
+		<div id="gameWindow">
+			
+			<div id="introScreen">
+				<div id="introScreenContent">
+					<h1>Rock Paper Scissors</h1>
+					<div id="btnStart" class="button" onclick="startGame()">Start Game</div>
+				</div>
+			</div>
+			
+			<div id="endScreen">
+				<div id="endScreenContent">
+					<h1 id="txtEndTitle">Something beats something</h1>
+					<h2 id="txtEndMessage">Win, Lose, or Tie</h2>
+					<div id="btnReplay" class="button" onclick="replay()">Play Again</div>
+				</div>
+			</div>
+			
+			
+			<div id="btnGo" onclick="go()">GO</div>
+
+			<div id="playerPanel">
+				<h2>Player</h2>
+				<img id="imgPlayer" src="img/question.png">
+				<br><br>
+				<div id="btnRock" class="iconButton" onclick="select('rock')">
+					<img src="img/rock.png">
+					<br>Rock
+				</div>
+				<div id="btnPaper" class="iconButton" onclick="select('paper')">
+					<img src="img/paper.png">
+					<br>Paper
+				</div>
+				<div id="btnScissors" class="iconButton" onclick="select('scissors')">
+					<img src="img/scissors.png">
+					<br>Scissors
+				</div>
+			</div>
+
+			<div id="computerPanel">
+				<h2>Computer</h2>
+				<img id="imgComputer" src="img/question.png">
+				<br><br>
+				<div id="lblRock" class="iconLabel">
+					<img src="img/rock.png">
+					<br>Rock
+				</div>
+				<div id="lblPaper" class="iconLabel">
+					<img src="img/paper.png">
+					<br>Paper
+				</div>
+				<div id="lblScissors" class="iconLabel">
+					<img src="img/scissors.png">
+					<br>Scissors
+				</div>
+			</div>
+
+			
+		</div>
+	</body>
+</html>
+
