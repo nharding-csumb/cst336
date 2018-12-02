@@ -1,0 +1,40 @@
+[28-Nov-2018 23:06:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0' at line 1' in /home/ubuntu/workspace/cst336/practice/poll/submitResult.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/poll/submitResult.php(19): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/poll/submitResult.php on line 19
+[28-Nov-2018 23:06:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0' at line 1' in /home/ubuntu/workspace/cst336/practice/poll/submitResult.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/poll/submitResult.php(19): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/poll/submitResult.php on line 19
+[28-Nov-2018 23:08:38 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0' at line 1' in /home/ubuntu/workspace/cst336/practice/poll/submitResult.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/poll/submitResult.php(19): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/poll/submitResult.php on line 19
+[28-Nov-2018 23:10:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0' at line 1' in /home/ubuntu/workspace/cst336/practice/poll/submitResult.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/poll/submitResult.php(19): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/poll/submitResult.php on line 19
+[28-Nov-2018 23:12:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0' at line 1' in /home/ubuntu/workspace/cst336/practice/poll/submitResult.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/poll/submitResult.php(21): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/poll/submitResult.php on line 21
+[28-Nov-2018 23:12:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0' at line 1' in /home/ubuntu/workspace/cst336/practice/poll/submitResult.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/poll/submitResult.php(21): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/poll/submitResult.php on line 21
+[28-Nov-2018 23:13:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id = 1 yes = yes + 1' at line 1' in /home/ubuntu/workspace/cst336/practice/poll/submitResult.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/poll/submitResult.php(21): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/poll/submitResult.php on line 21
+[28-Nov-2018 23:13:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id = 1 yes = yes + 1' at line 1' in /home/ubuntu/workspace/cst336/practice/poll/submitResult.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/poll/submitResult.php(21): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/poll/submitResult.php on line 21

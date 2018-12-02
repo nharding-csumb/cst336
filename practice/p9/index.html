@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Holiday Shopping </title>
+        
+        <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+        
+        <script>
+        
+        
+            var cakePrice = 0;
+            var pinPrice = 0;
+            
+            
+            
+            function calcVal() {
+                var shippingCost = $("input[name=shipping]:checked").val();
+                var subCost = parseInt(shippingCost) + parseInt(cakePrice) + parseInt(pinPrice);
+                var tax = subCost * 0.1;
+                var total = parseInt(subCost) + parseInt(tax);
+                
+                $("#cakeTotal").html('$' + cakePrice);
+                $("#pinTotal").html('$' + pinPrice);
+                $("#shipTotal").html('$' + shippingCost);
+                $("#subTotal").html('$' + subCost);
+                $("#taxTotal").html('$' + tax);
+                $("#total").html('$' + total);
+            }
+            
+            
+            $(document).ready(function(){
+                
+                $("#cakeNum").change(function(){
+                    cakePrice = 30 * $("#cakeNum").val();
+                    calcVal();
+                });
+                
+                $("#pinNum").change(function(){
+                    pinPrice = 20 * $("#pinNum").val();
+                    calcVal();
+                });
+                
+            });
+            
+            function validateForm() {
+                if ( !$("#agree").is(':checked') ) {
+                    $("#terms").css("color", "red");
+                    return false;
+                }
+                
+                
+            }
+        </script>
+        
+        <style>
+            #text-center {
+                text-align: center;
+            }
+            
+            form {
+                text-align: center;
+            }
+            
+            table {
+                margin: 0px auto;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <div id="text-center">
+            <header>
+                <h1><strong>Holiday Shopping</strong></h1>
+            </header>
+            
+            <br /> <br /> <br />
+            
+            <h2><strong>Cart</strong></h2>
+            <br />
+            
+            <form onsubmit="return validateForm()" action="./checkout.php" method="GET">
+                <table id="cartDisplay">
+                    <tr id="table-header">
+                        <td><strong>Product</strong></td>
+                        <td><strong>Unit Price</strong></td>
+                        <td><strong>Quantity</strong></td>
+                        <td><strong>Total</strong></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Fruit Cake</td>
+                        <td>$30</td>
+                        <td> <input type="text" id="cakeNum"> </td>
+                        <td id="cakeTotal"></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Pi&#241;ata (Medium size)</td>
+                        <td>$20</td>
+                        <td> <input type="text" id="pinNum"> </td>
+                        <td id="pinTotal"></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Shipping</td>
+                        <td></td>
+                        <td></td>
+                        <td id="shipTotal"></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Subtotal</td>
+                        <td></td>
+                        <td></td>
+                        <td id="subTotal"></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Tax (10%)</td>
+                        <td></td>
+                        <td></td>
+                        <td id="taxTotal"></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Total</td>
+                        <td></td>
+                        <td></td>
+                        <td id="total"></td>
+                    </tr>
+                </table>
+                
+                <br /><br />
+                
+                <h3><strong>Shipping & Handling</strong></h3>
+                <br />
+                
+                <input type="radio" name="shipping" value="15"> Next-day Delivery: $15.00 <br>
+                <input type="radio" name="shipping" value="10"> Three-day Delivery: $10.00 <br>
+                <input type="radio" name="shipping" value="5" checked> Regular shipping (5-8 days): $5.00 <br>
+                
+                <br>
+                <br>
+                <br>
+                <br>
+                
+                <input type="checkbox" id="agree"> <span id="terms">I accept the terms of this purchase.</span> <br>
+                <input type="submit" name="sub" value="CONFIRM PURCHASE">
+            </form>
+        
+        </div>
+
+    </body>
+</html>
