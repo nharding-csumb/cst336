@@ -56,7 +56,7 @@
                         data: { "petId": $(this).attr('id') },
                         success: function(data,status) {
                             //alert(data);
-                            $("#petName").html(data.name);
+                            $("#petname").html(data.name);
                             //$("#type").html(data.type);
                             //$("#breed").html(data.breed);
                             $("#description").html(data.description);
