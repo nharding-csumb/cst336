@@ -1,0 +1,5 @@
+[03-Dec-2018 23:20:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/cst336/labs/lab10/api/getPetInfo.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab10/api/getPetInfo.php(14): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab10/api/getPetInfo.php on line 14

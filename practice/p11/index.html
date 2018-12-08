@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Video Rating</title>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+        <script>
+        
+            $("document").ready(function(){  
+                
+                $(".rateSelect").change(function(){
+                    $("input[type=radio]").attr("disabled", true);
+                    
+                    $.ajax({
+                        
+                        type: "GET",
+                        url: "ratings.php",
+                        dataType: "json",
+                        data: { "rating": $(this).val() },
+                        success: function(data,status) {
+                            //var totalRatings = 
+                        }
+                    });
+                });
+                
+            });
+        </script>
+    </head>
+    <body>
+        
+        <h2><strong>Rate this Video: </strong></h2>
+        
+        <br><br>
+        
+        <iframe width="420" height="325" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+        
+        <br><br>
+        
+        Stars: <br>
+        <form>
+            <input class="rateSelect" type="radio" name="rating" value="one">One 
+            <input class="rateSelect" type="radio" name="rating" value="two">Two 
+            <input class="rateSelect" type="radio" name="rating" value="three">Three 
+            <input class="rateSelect" type="radio" name="rating" value="four">Four 
+        </form>
+
+        <br><br>
+        
+        <h3>Total ratings: </h3>
+        <span id="totalRatings"></span>
+        
+    </body>
+</html>
