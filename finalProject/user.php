@@ -91,7 +91,7 @@
                             <?= displayGenres() ?>
                         </select>
                     <br><br>
-                    Search By:
+                    Sort By:
                     <br>
                     Year <input type="radio" name="searchBy" value="yearOrder" checked>
                     Name  <input type="radio" name="searchBy" value="nameOrder">
