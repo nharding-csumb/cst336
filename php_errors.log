@@ -1,0 +1,336 @@
+[12-Dec-2018 00:43:46 UTC] PHP Fatal error:  Call to undefined function loginProblem() in /home/ubuntu/workspace/cst336/finalProject/index.php on line 52
+[12-Dec-2018 00:43:46 UTC] PHP Stack trace:
+[12-Dec-2018 00:43:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/index.php:0
+[12-Dec-2018 00:44:48 UTC] PHP Warning:  include(../../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/finalProject/loginProcess.php on line 5
+[12-Dec-2018 00:44:48 UTC] PHP Stack trace:
+[12-Dec-2018 00:44:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/loginProcess.php:0
+[12-Dec-2018 00:44:48 UTC] PHP Warning:  include(): Failed opening '../../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/finalProject/loginProcess.php on line 5
+[12-Dec-2018 00:44:48 UTC] PHP Stack trace:
+[12-Dec-2018 00:44:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/loginProcess.php:0
+[12-Dec-2018 00:45:34 UTC] PHP Warning:  include(../../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/finalProject/loginProcess.php on line 5
+[12-Dec-2018 00:45:34 UTC] PHP Stack trace:
+[12-Dec-2018 00:45:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/loginProcess.php:0
+[12-Dec-2018 00:45:34 UTC] PHP Warning:  include(): Failed opening '../../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/finalProject/loginProcess.php on line 5
+[12-Dec-2018 00:45:34 UTC] PHP Stack trace:
+[12-Dec-2018 00:45:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/loginProcess.php:0
+[12-Dec-2018 00:45:46 UTC] PHP Warning:  include(../../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/finalProject/loginProcess.php on line 5
+[12-Dec-2018 00:45:46 UTC] PHP Stack trace:
+[12-Dec-2018 00:45:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/loginProcess.php:0
+[12-Dec-2018 00:45:46 UTC] PHP Warning:  include(): Failed opening '../../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/finalProject/loginProcess.php on line 5
+[12-Dec-2018 00:45:46 UTC] PHP Stack trace:
+[12-Dec-2018 00:45:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/loginProcess.php:0
+[12-Dec-2018 00:46:06 UTC] PHP Warning:  include(../../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/finalProject/loginProcess.php on line 5
+[12-Dec-2018 00:46:06 UTC] PHP Stack trace:
+[12-Dec-2018 00:46:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/loginProcess.php:0
+[12-Dec-2018 00:46:06 UTC] PHP Warning:  include(): Failed opening '../../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/finalProject/loginProcess.php on line 5
+[12-Dec-2018 00:46:06 UTC] PHP Stack trace:
+[12-Dec-2018 00:46:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/loginProcess.php:0
+[12-Dec-2018 00:46:07 UTC] PHP Warning:  include(../../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/finalProject/admin.php on line 4
+[12-Dec-2018 00:46:07 UTC] PHP Stack trace:
+[12-Dec-2018 00:46:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/admin.php:0
+[12-Dec-2018 00:46:07 UTC] PHP Warning:  include(): Failed opening '../../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/finalProject/admin.php on line 4
+[12-Dec-2018 00:46:07 UTC] PHP Stack trace:
+[12-Dec-2018 00:46:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/admin.php:0
+[12-Dec-2018 00:46:07 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/finalProject/admin.php on line 5
+[12-Dec-2018 00:46:07 UTC] PHP Stack trace:
+[12-Dec-2018 00:46:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/admin.php:0
+[12-Dec-2018 00:46:15 UTC] PHP Warning:  include(../../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/finalProject/admin.php on line 4
+[12-Dec-2018 00:46:15 UTC] PHP Stack trace:
+[12-Dec-2018 00:46:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/admin.php:0
+[12-Dec-2018 00:46:15 UTC] PHP Warning:  include(): Failed opening '../../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/finalProject/admin.php on line 4
+[12-Dec-2018 00:46:15 UTC] PHP Stack trace:
+[12-Dec-2018 00:46:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/admin.php:0
+[12-Dec-2018 00:46:15 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/finalProject/admin.php on line 5
+[12-Dec-2018 00:46:15 UTC] PHP Stack trace:
+[12-Dec-2018 00:46:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/admin.php:0
+[12-Dec-2018 00:47:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.fin_proj_movies' doesn't exist' in /home/ubuntu/workspace/cst336/finalProject/inc/functions.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalProject/inc/functions.php(15): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/finalProject/admin.php(66): displayAllProducts()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalProject/inc/functions.php on line 15
+[12-Dec-2018 00:47:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.fin_proj_movies' doesn't exist' in /home/ubuntu/workspace/cst336/finalProject/inc/functions.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalProject/inc/functions.php(15): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/finalProject/admin.php(66): displayAllProducts()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalProject/inc/functions.php on line 15
+[12-Dec-2018 00:47:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.fin_proj_movies' doesn't exist' in /home/ubuntu/workspace/cst336/finalProject/inc/functions.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalProject/inc/functions.php(15): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/finalProject/admin.php(66): displayAllProducts()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalProject/inc/functions.php on line 15
+[12-Dec-2018 00:48:33 UTC] PHP Warning:  include(../../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/finalProject/loginProcess.php on line 5
+[12-Dec-2018 00:48:33 UTC] PHP Stack trace:
+[12-Dec-2018 00:48:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/loginProcess.php:0
+[12-Dec-2018 00:48:33 UTC] PHP Warning:  include(): Failed opening '../../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/finalProject/loginProcess.php on line 5
+[12-Dec-2018 00:48:33 UTC] PHP Stack trace:
+[12-Dec-2018 00:48:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/loginProcess.php:0
+[12-Dec-2018 00:48:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.fin_proj_movies' doesn't exist' in /home/ubuntu/workspace/cst336/finalProject/inc/functions.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalProject/inc/functions.php(15): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/finalProject/admin.php(66): displayAllProducts()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalProject/inc/functions.php on line 15
+[12-Dec-2018 01:01:07 UTC] PHP Warning:  include(../../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/finalProject/loginProcess.php on line 5
+[12-Dec-2018 01:01:07 UTC] PHP Stack trace:
+[12-Dec-2018 01:01:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/loginProcess.php:0
+[12-Dec-2018 01:01:07 UTC] PHP Warning:  include(): Failed opening '../../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/finalProject/loginProcess.php on line 5
+[12-Dec-2018 01:01:07 UTC] PHP Stack trace:
+[12-Dec-2018 01:01:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/loginProcess.php:0
+[12-Dec-2018 01:03:59 UTC] PHP Fatal error:  Call to undefined function displayProductInfo() in /home/ubuntu/workspace/cst336/finalProject/movieInfo.php on line 88
+[12-Dec-2018 01:03:59 UTC] PHP Stack trace:
+[12-Dec-2018 01:03:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/movieInfo.php:0
+[12-Dec-2018 01:04:21 UTC] PHP Fatal error:  Call to undefined function displayProductInfo() in /home/ubuntu/workspace/cst336/finalProject/movieInfo.php on line 88
+[12-Dec-2018 01:04:21 UTC] PHP Stack trace:
+[12-Dec-2018 01:04:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/movieInfo.php:0
+[12-Dec-2018 01:04:54 UTC] PHP Fatal error:  Call to undefined function displayProductInfo() in /home/ubuntu/workspace/cst336/finalProject/movieInfo.php on line 88
+[12-Dec-2018 01:04:54 UTC] PHP Stack trace:
+[12-Dec-2018 01:04:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/movieInfo.php:0
+[12-Dec-2018 01:04:57 UTC] PHP Fatal error:  Call to undefined function displayProductInfo() in /home/ubuntu/workspace/cst336/finalProject/movieInfo.php on line 88
+[12-Dec-2018 01:04:57 UTC] PHP Stack trace:
+[12-Dec-2018 01:04:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/movieInfo.php:0
+[12-Dec-2018 01:05:32 UTC] PHP Fatal error:  Call to undefined function displayProductInfo() in /home/ubuntu/workspace/cst336/finalProject/movieInfo.php on line 87
+[12-Dec-2018 01:05:32 UTC] PHP Stack trace:
+[12-Dec-2018 01:05:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/movieInfo.php:0
+[12-Dec-2018 02:17:53 UTC] PHP Parse error:  syntax error, unexpected '"'>"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/cst336/finalProject/updateProduct.php on line 104
+[12-Dec-2018 03:28:24 UTC] PHP Warning:  include(/inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/finalProject/deleteProduct.php on line 4
+[12-Dec-2018 03:28:24 UTC] PHP Stack trace:
+[12-Dec-2018 03:28:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/deleteProduct.php:0
+[12-Dec-2018 03:28:24 UTC] PHP Warning:  include(): Failed opening '/inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/finalProject/deleteProduct.php on line 4
+[12-Dec-2018 03:28:24 UTC] PHP Stack trace:
+[12-Dec-2018 03:28:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/deleteProduct.php:0
+[12-Dec-2018 03:28:24 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/finalProject/deleteProduct.php on line 5
+[12-Dec-2018 03:28:24 UTC] PHP Stack trace:
+[12-Dec-2018 03:28:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/deleteProduct.php:0
+[12-Dec-2018 03:29:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/cst336/finalProject/deleteProduct.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalProject/deleteProduct.php(11): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalProject/deleteProduct.php on line 11
+[12-Dec-2018 03:34:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/cst336/finalProject/deleteProduct.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalProject/deleteProduct.php(11): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalProject/deleteProduct.php on line 11
+[12-Dec-2018 03:39:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/cst336/finalProject/deleteProduct.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalProject/deleteProduct.php(15): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalProject/deleteProduct.php on line 15
+[12-Dec-2018 03:39:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/cst336/finalProject/deleteProduct.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalProject/deleteProduct.php(15): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalProject/deleteProduct.php on line 15
+[12-Dec-2018 03:40:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/cst336/finalProject/deleteProduct.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalProject/deleteProduct.php(15): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalProject/deleteProduct.php on line 15
+[12-Dec-2018 03:42:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/cst336/finalProject/deleteProduct.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalProject/deleteProduct.php(17): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalProject/deleteProduct.php on line 17
+[12-Dec-2018 03:42:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/cst336/finalProject/deleteProduct.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalProject/deleteProduct.php(18): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalProject/deleteProduct.php on line 18
+[12-Dec-2018 03:54:12 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'addProduct'' in /home/ubuntu/workspace/cst336/finalProject/inc/dbConnection.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalProject/inc/dbConnection.php(19): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst336/finalProject/addProduct.php(6): startConnection('addProduct')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalProject/inc/dbConnection.php on line 19
+[12-Dec-2018 03:55:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'addProduct'' in /home/ubuntu/workspace/cst336/finalProject/inc/dbConnection.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalProject/inc/dbConnection.php(19): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst336/finalProject/addProduct.php(6): startConnection('addProduct')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalProject/inc/dbConnection.php on line 19
+[12-Dec-2018 03:55:30 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'fin_proj_movies'' in /home/ubuntu/workspace/cst336/finalProject/inc/dbConnection.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalProject/inc/dbConnection.php(19): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst336/finalProject/addProduct.php(6): startConnection('fin_proj_movies')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalProject/inc/dbConnection.php on line 19
+[12-Dec-2018 03:56:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'image' cannot be null' in /home/ubuntu/workspace/cst336/finalProject/addProduct.php:34
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalProject/addProduct.php(34): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalProject/addProduct.php on line 34
+[12-Dec-2018 03:57:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'image' cannot be null' in /home/ubuntu/workspace/cst336/finalProject/addProduct.php:34
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalProject/addProduct.php(34): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalProject/addProduct.php on line 34
+[12-Dec-2018 04:07:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'final_project.fin_project_rating' doesn't exist' in /home/ubuntu/workspace/cst336/finalProject/addProduct.php:42
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalProject/addProduct.php(42): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalProject/addProduct.php on line 42
+[12-Dec-2018 04:16:09 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/cst336/finalProject/deleteProduct.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalProject/deleteProduct.php(32): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalProject/deleteProduct.php on line 32
+[12-Dec-2018 04:17:37 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/cst336/finalProject/deleteProduct.php:34
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalProject/deleteProduct.php(34): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalProject/deleteProduct.php on line 34
+[12-Dec-2018 04:18:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/cst336/finalProject/deleteProduct.php:34
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalProject/deleteProduct.php(34): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalProject/deleteProduct.php on line 34
+[12-Dec-2018 04:19:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/cst336/finalProject/deleteProduct.php:35
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalProject/deleteProduct.php(35): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalProject/deleteProduct.php on line 35
+[12-Dec-2018 04:19:30 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/cst336/finalProject/deleteProduct.php:35
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalProject/deleteProduct.php(35): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalProject/deleteProduct.php on line 35
+[12-Dec-2018 04:20:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/cst336/finalProject/deleteProduct.php:35
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalProject/deleteProduct.php(35): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalProject/deleteProduct.php on line 35
+[12-Dec-2018 04:21:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/cst336/finalProject/deleteProduct.php:34
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalProject/deleteProduct.php(34): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalProject/deleteProduct.php on line 34
+[12-Dec-2018 04:22:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/cst336/finalProject/deleteProduct.php:35
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalProject/deleteProduct.php(35): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalProject/deleteProduct.php on line 35
+[12-Dec-2018 04:22:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/cst336/finalProject/deleteProduct.php:34
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalProject/deleteProduct.php(34): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalProject/deleteProduct.php on line 34
+[12-Dec-2018 04:23:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/cst336/finalProject/deleteProduct.php:34
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalProject/deleteProduct.php(34): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalProject/deleteProduct.php on line 34
+[12-Dec-2018 04:24:38 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/cst336/finalProject/deleteProduct.php:36
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalProject/deleteProduct.php(36): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalProject/deleteProduct.php on line 36
+[12-Dec-2018 04:25:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/cst336/finalProject/deleteProduct.php:37
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalProject/deleteProduct.php(37): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalProject/deleteProduct.php on line 37
+[12-Dec-2018 04:28:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/cst336/finalProject/deleteProduct.php:37
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalProject/deleteProduct.php(37): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalProject/deleteProduct.php on line 37
+[12-Dec-2018 04:29:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/cst336/finalProject/deleteProduct.php:37
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalProject/deleteProduct.php(37): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalProject/deleteProduct.php on line 37
+[12-Dec-2018 04:37:49 UTC] PHP Fatal error:  Call to undefined function displayGenres() in /home/ubuntu/workspace/cst336/finalProject/user.php on line 35
+[12-Dec-2018 04:37:49 UTC] PHP Stack trace:
+[12-Dec-2018 04:37:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/user.php:0
+[12-Dec-2018 04:38:46 UTC] PHP Fatal error:  Call to undefined function displayGenres() in /home/ubuntu/workspace/cst336/finalProject/user.php on line 38
+[12-Dec-2018 04:38:46 UTC] PHP Stack trace:
+[12-Dec-2018 04:38:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/user.php:0
+[12-Dec-2018 04:39:01 UTC] PHP Fatal error:  Call to undefined function displayGenres() in /home/ubuntu/workspace/cst336/finalProject/user.php on line 44
+[12-Dec-2018 04:39:01 UTC] PHP Stack trace:
+[12-Dec-2018 04:39:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/user.php:0
+[12-Dec-2018 04:39:30 UTC] PHP Fatal error:  Call to undefined function displayGenres() in /home/ubuntu/workspace/cst336/finalProject/user.php on line 46
+[12-Dec-2018 04:39:30 UTC] PHP Stack trace:
+[12-Dec-2018 04:39:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/user.php:0
+[12-Dec-2018 04:39:39 UTC] PHP Fatal error:  Call to undefined function displayGenres() in /home/ubuntu/workspace/cst336/finalProject/user.php on line 48
+[12-Dec-2018 04:39:39 UTC] PHP Stack trace:
+[12-Dec-2018 04:39:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/user.php:0
+[12-Dec-2018 04:43:28 UTC] PHP Fatal error:  Call to undefined function displayGenres() in /home/ubuntu/workspace/cst336/finalProject/user.php on line 48
+[12-Dec-2018 04:43:28 UTC] PHP Stack trace:
+[12-Dec-2018 04:43:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/user.php:0
+[12-Dec-2018 04:43:48 UTC] PHP Fatal error:  Call to undefined function displayGenres() in /home/ubuntu/workspace/cst336/finalProject/user.php on line 48
+[12-Dec-2018 04:43:48 UTC] PHP Stack trace:
+[12-Dec-2018 04:43:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/user.php:0
+[12-Dec-2018 04:44:28 UTC] PHP Fatal error:  Call to undefined function displayGenres() in /home/ubuntu/workspace/cst336/finalProject/user.php on line 48
+[12-Dec-2018 04:44:28 UTC] PHP Stack trace:
+[12-Dec-2018 04:44:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/user.php:0
+[12-Dec-2018 04:44:53 UTC] PHP Fatal error:  Call to undefined function displayGenres() in /home/ubuntu/workspace/cst336/finalProject/user.php on line 48
+[12-Dec-2018 04:44:53 UTC] PHP Stack trace:
+[12-Dec-2018 04:44:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/user.php:0
+[12-Dec-2018 04:44:55 UTC] PHP Fatal error:  Call to undefined function displayGenres() in /home/ubuntu/workspace/cst336/finalProject/user.php on line 48
+[12-Dec-2018 04:44:55 UTC] PHP Stack trace:
+[12-Dec-2018 04:44:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/user.php:0
+[12-Dec-2018 04:46:29 UTC] PHP Fatal error:  Call to undefined function displayGenres() in /home/ubuntu/workspace/cst336/finalProject/user.php on line 48
+[12-Dec-2018 04:46:29 UTC] PHP Stack trace:
+[12-Dec-2018 04:46:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/user.php:0
+[12-Dec-2018 04:46:31 UTC] PHP Fatal error:  Call to undefined function displayGenres() in /home/ubuntu/workspace/cst336/finalProject/user.php on line 48
+[12-Dec-2018 04:46:31 UTC] PHP Stack trace:
+[12-Dec-2018 04:46:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/user.php:0
+[12-Dec-2018 04:47:38 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'final_project.proj_movies' doesn't exist' in /home/ubuntu/workspace/cst336/finalProject/inc/functions.php:171
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalProject/inc/functions.php(171): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/finalProject/user.php(67): filterMovies()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalProject/inc/functions.php on line 171
+[12-Dec-2018 19:02:04 UTC] PHP Warning:  max(): When only one parameter is given, it must be an array in /home/ubuntu/workspace/cst336/finalProject/inc/functions.php on line 335
+[12-Dec-2018 19:02:04 UTC] PHP Stack trace:
+[12-Dec-2018 19:02:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/admin.php:0
+[12-Dec-2018 19:02:04 UTC] PHP   2. highPerGenre() /home/ubuntu/workspace/cst336/finalProject/admin.php:91
+[12-Dec-2018 19:02:04 UTC] PHP   3. max() /home/ubuntu/workspace/cst336/finalProject/inc/functions.php:335
+[12-Dec-2018 19:02:04 UTC] PHP Warning:  max(): When only one parameter is given, it must be an array in /home/ubuntu/workspace/cst336/finalProject/inc/functions.php on line 336
+[12-Dec-2018 19:02:04 UTC] PHP Stack trace:
+[12-Dec-2018 19:02:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/admin.php:0
+[12-Dec-2018 19:02:04 UTC] PHP   2. highPerGenre() /home/ubuntu/workspace/cst336/finalProject/admin.php:91
+[12-Dec-2018 19:02:04 UTC] PHP   3. max() /home/ubuntu/workspace/cst336/finalProject/inc/functions.php:336
+[12-Dec-2018 19:02:04 UTC] PHP Warning:  max(): When only one parameter is given, it must be an array in /home/ubuntu/workspace/cst336/finalProject/inc/functions.php on line 337
+[12-Dec-2018 19:02:04 UTC] PHP Stack trace:
+[12-Dec-2018 19:02:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/admin.php:0
+[12-Dec-2018 19:02:04 UTC] PHP   2. highPerGenre() /home/ubuntu/workspace/cst336/finalProject/admin.php:91
+[12-Dec-2018 19:02:04 UTC] PHP   3. max() /home/ubuntu/workspace/cst336/finalProject/inc/functions.php:337
+[12-Dec-2018 19:02:04 UTC] PHP Warning:  max(): When only one parameter is given, it must be an array in /home/ubuntu/workspace/cst336/finalProject/inc/functions.php on line 338
+[12-Dec-2018 19:02:04 UTC] PHP Stack trace:
+[12-Dec-2018 19:02:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/admin.php:0
+[12-Dec-2018 19:02:04 UTC] PHP   2. highPerGenre() /home/ubuntu/workspace/cst336/finalProject/admin.php:91
+[12-Dec-2018 19:02:04 UTC] PHP   3. max() /home/ubuntu/workspace/cst336/finalProject/inc/functions.php:338
+[12-Dec-2018 19:02:04 UTC] PHP Warning:  max(): When only one parameter is given, it must be an array in /home/ubuntu/workspace/cst336/finalProject/inc/functions.php on line 339
+[12-Dec-2018 19:02:04 UTC] PHP Stack trace:
+[12-Dec-2018 19:02:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/admin.php:0
+[12-Dec-2018 19:02:04 UTC] PHP   2. highPerGenre() /home/ubuntu/workspace/cst336/finalProject/admin.php:91
+[12-Dec-2018 19:02:04 UTC] PHP   3. max() /home/ubuntu/workspace/cst336/finalProject/inc/functions.php:339
+[12-Dec-2018 19:03:24 UTC] PHP Warning:  max(): When only one parameter is given, it must be an array in /home/ubuntu/workspace/cst336/finalProject/inc/functions.php on line 335
+[12-Dec-2018 19:03:24 UTC] PHP Stack trace:
+[12-Dec-2018 19:03:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/admin.php:0
+[12-Dec-2018 19:03:24 UTC] PHP   2. highPerGenre() /home/ubuntu/workspace/cst336/finalProject/admin.php:91
+[12-Dec-2018 19:03:24 UTC] PHP   3. max() /home/ubuntu/workspace/cst336/finalProject/inc/functions.php:335
+[12-Dec-2018 19:03:24 UTC] PHP Warning:  max(): When only one parameter is given, it must be an array in /home/ubuntu/workspace/cst336/finalProject/inc/functions.php on line 336
+[12-Dec-2018 19:03:24 UTC] PHP Stack trace:
+[12-Dec-2018 19:03:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/admin.php:0
+[12-Dec-2018 19:03:24 UTC] PHP   2. highPerGenre() /home/ubuntu/workspace/cst336/finalProject/admin.php:91
+[12-Dec-2018 19:03:24 UTC] PHP   3. max() /home/ubuntu/workspace/cst336/finalProject/inc/functions.php:336
+[12-Dec-2018 19:03:24 UTC] PHP Warning:  max(): When only one parameter is given, it must be an array in /home/ubuntu/workspace/cst336/finalProject/inc/functions.php on line 337
+[12-Dec-2018 19:03:24 UTC] PHP Stack trace:
+[12-Dec-2018 19:03:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/admin.php:0
+[12-Dec-2018 19:03:24 UTC] PHP   2. highPerGenre() /home/ubuntu/workspace/cst336/finalProject/admin.php:91
+[12-Dec-2018 19:03:24 UTC] PHP   3. max() /home/ubuntu/workspace/cst336/finalProject/inc/functions.php:337
+[12-Dec-2018 19:03:24 UTC] PHP Warning:  max(): When only one parameter is given, it must be an array in /home/ubuntu/workspace/cst336/finalProject/inc/functions.php on line 338
+[12-Dec-2018 19:03:24 UTC] PHP Stack trace:
+[12-Dec-2018 19:03:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/admin.php:0
+[12-Dec-2018 19:03:24 UTC] PHP   2. highPerGenre() /home/ubuntu/workspace/cst336/finalProject/admin.php:91
+[12-Dec-2018 19:03:24 UTC] PHP   3. max() /home/ubuntu/workspace/cst336/finalProject/inc/functions.php:338
+[12-Dec-2018 19:03:24 UTC] PHP Warning:  max(): When only one parameter is given, it must be an array in /home/ubuntu/workspace/cst336/finalProject/inc/functions.php on line 339
+[12-Dec-2018 19:03:24 UTC] PHP Stack trace:
+[12-Dec-2018 19:03:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/admin.php:0
+[12-Dec-2018 19:03:24 UTC] PHP   2. highPerGenre() /home/ubuntu/workspace/cst336/finalProject/admin.php:91
+[12-Dec-2018 19:03:24 UTC] PHP   3. max() /home/ubuntu/workspace/cst336/finalProject/inc/functions.php:339

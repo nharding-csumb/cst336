@@ -1,0 +1,84 @@
+[12-Dec-2018 19:34:19 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/finalProject/api/movieInfo.php on line 3
+[12-Dec-2018 19:34:19 UTC] PHP Stack trace:
+[12-Dec-2018 19:34:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api/movieInfo.php:0
+[12-Dec-2018 19:34:19 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/finalProject/api/movieInfo.php on line 3
+[12-Dec-2018 19:34:19 UTC] PHP Stack trace:
+[12-Dec-2018 19:34:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api/movieInfo.php:0
+[12-Dec-2018 19:34:19 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/finalProject/api/movieInfo.php on line 5
+[12-Dec-2018 19:34:19 UTC] PHP Stack trace:
+[12-Dec-2018 19:34:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api/movieInfo.php:0
+[12-Dec-2018 19:34:43 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/finalProject/api/movieInfo.php on line 3
+[12-Dec-2018 19:34:43 UTC] PHP Stack trace:
+[12-Dec-2018 19:34:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api/movieInfo.php:0
+[12-Dec-2018 19:34:43 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/finalProject/api/movieInfo.php on line 3
+[12-Dec-2018 19:34:43 UTC] PHP Stack trace:
+[12-Dec-2018 19:34:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api/movieInfo.php:0
+[12-Dec-2018 19:34:43 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/finalProject/api/movieInfo.php on line 5
+[12-Dec-2018 19:34:43 UTC] PHP Stack trace:
+[12-Dec-2018 19:34:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api/movieInfo.php:0
+[12-Dec-2018 19:34:51 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/finalProject/api/movieInfo.php on line 3
+[12-Dec-2018 19:34:51 UTC] PHP Stack trace:
+[12-Dec-2018 19:34:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api/movieInfo.php:0
+[12-Dec-2018 19:34:51 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/finalProject/api/movieInfo.php on line 3
+[12-Dec-2018 19:34:51 UTC] PHP Stack trace:
+[12-Dec-2018 19:34:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api/movieInfo.php:0
+[12-Dec-2018 19:34:51 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/finalProject/api/movieInfo.php on line 5
+[12-Dec-2018 19:34:51 UTC] PHP Stack trace:
+[12-Dec-2018 19:34:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api/movieInfo.php:0
+[12-Dec-2018 19:35:07 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/finalProject/api/movieInfo.php on line 3
+[12-Dec-2018 19:35:07 UTC] PHP Stack trace:
+[12-Dec-2018 19:35:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api/movieInfo.php:0
+[12-Dec-2018 19:35:07 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/finalProject/api/movieInfo.php on line 3
+[12-Dec-2018 19:35:07 UTC] PHP Stack trace:
+[12-Dec-2018 19:35:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api/movieInfo.php:0
+[12-Dec-2018 19:35:07 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/finalProject/api/movieInfo.php on line 5
+[12-Dec-2018 19:35:07 UTC] PHP Stack trace:
+[12-Dec-2018 19:35:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api/movieInfo.php:0
+[12-Dec-2018 19:35:59 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/finalProject/api/movieInfo.php on line 3
+[12-Dec-2018 19:35:59 UTC] PHP Stack trace:
+[12-Dec-2018 19:35:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api/movieInfo.php:0
+[12-Dec-2018 19:35:59 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/finalProject/api/movieInfo.php on line 3
+[12-Dec-2018 19:35:59 UTC] PHP Stack trace:
+[12-Dec-2018 19:35:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api/movieInfo.php:0
+[12-Dec-2018 19:35:59 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/finalProject/api/movieInfo.php on line 5
+[12-Dec-2018 19:35:59 UTC] PHP Stack trace:
+[12-Dec-2018 19:35:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api/movieInfo.php:0
+[12-Dec-2018 19:36:31 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/finalProject/api/movieInfo.php on line 5
+[12-Dec-2018 19:36:31 UTC] PHP Stack trace:
+[12-Dec-2018 19:36:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api/movieInfo.php:0
+[12-Dec-2018 19:36:57 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'finalProject'' in /home/ubuntu/workspace/cst336/finalProject/inc/dbConnection.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalProject/inc/dbConnection.php(19): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst336/finalProject/api/movieInfo.php(6): startConnection('finalProject')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalProject/inc/dbConnection.php on line 19
+[12-Dec-2018 19:37:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''' at line 3' in /home/ubuntu/workspace/cst336/finalProject/api/movieInfo.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalProject/api/movieInfo.php(15): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalProject/api/movieInfo.php on line 15
+[12-Dec-2018 19:37:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''' at line 3' in /home/ubuntu/workspace/cst336/finalProject/api/movieInfo.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalProject/api/movieInfo.php(15): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalProject/api/movieInfo.php on line 15
+[12-Dec-2018 19:37:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''' at line 3' in /home/ubuntu/workspace/cst336/finalProject/api/movieInfo.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalProject/api/movieInfo.php(15): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalProject/api/movieInfo.php on line 15
+[12-Dec-2018 19:38:30 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''' at line 3' in /home/ubuntu/workspace/cst336/finalProject/api/movieInfo.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalProject/api/movieInfo.php(15): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalProject/api/movieInfo.php on line 15
+[12-Dec-2018 19:39:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''' at line 3' in /home/ubuntu/workspace/cst336/finalProject/api/movieInfo.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalProject/api/movieInfo.php(15): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalProject/api/movieInfo.php on line 15
+[12-Dec-2018 19:51:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''' at line 3' in /home/ubuntu/workspace/cst336/finalProject/api/movieInfo.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalProject/api/movieInfo.php(15): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalProject/api/movieInfo.php on line 15
